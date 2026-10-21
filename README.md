@@ -25,6 +25,24 @@ Releases에서 최신 버전 ZIP을 내려받을 수 있습니다.
 
 기업 시스템 운영 과정에서 반복되는 로그 분석 업무를 간소화하기 위해 제작했습니다.
 
+**실행 순서**
+1. ZIP 압축 해제
+일반 폴더에 전체 압축을 풉니다.
+
+2. Python 설치 — 이미 있으면 생략
+파이썬_설치안내.txt 참고.
+
+3. START.bat 실행
+로컬 로그 검색은 바로 사용할 수 있습니다.
+
+4. 실제 로그 검색
+로그 파일 선택 → 로그날짜·시간·검색조건 입력 → 조건 조회
+
+5. 선택 기능은 필요할 때 추가하세요.
+*서버 연결: SETUP_SFTP.bat 실행 → 앱 재실행 → 서버 로그 가져오기에서 등록·연결.
+*AI 분석: Node.js 설치 → SETUP_AI.bat 실행 → 앱에서 ChatGPT 계정 로그인 → 결과 선택 → AI 미리보기 확인 → 분석.
+
+
 <img width="2073" height="1457" alt="image" src="https://github.com/user-attachments/assets/c455ab91-5be7-4af8-850c-e15c92ff7cfb" />
 <img width="1644" height="1323" alt="image" src="https://github.com/user-attachments/assets/301bb38f-4837-49f9-b630-7501271aa99c" />
 <img width="1685" height="1249" alt="image" src="https://github.com/user-attachments/assets/8536ee31-0a3d-41f7-ac11-f8c82c4cf926" />
